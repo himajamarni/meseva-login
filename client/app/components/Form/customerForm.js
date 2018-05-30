@@ -81,48 +81,48 @@ class customerForm extends Component {
             <div className="row">
                <div className="col-25"><label>First Name:</label></div>
                <div className="col-75"><input type="text"  className = "form-control" name="name" value={this.state.name}
-               onChange={this.handleChange} placeholder= "eg:ram" required/></div>
+               onChange={this.handleChange}  required/></div>
             </div>
 
             <div className="row">
             <div className="col-25"><label>Last Name:</label></div>
             <div className="col-75"><input type="text"  className = "form-control" name="last_name" value={this.state.last_name}
-             onChange={this.handleChange} placeholder = "eg:Morampudi" required /></div>
+             onChange={this.handleChange}  required /></div>
             </div>
 
             <div className="row">
             <div className="col-25"><label>Ph_No:</label></div>
             <div className="col-75"><input type ="tel" className = "form-control" name="ph_no" value={this.state.ph_no} onChange={this.handleChange}
-            placeholder = "eg:09502682269" pattern ="^\d{11}" required/></div>
+            pattern ="^\d{10}" required/></div>
             </div>
             <div className="row">
             <div className="col-25"><label>Address:</label></div>
             <div className="col-75"><input type ="text" className = "form-control" name="address" value={this.state.address}
-            onChange={this.handleChange} placeholder = "eg:sai baba colony "required/></div>
+            onChange={this.handleChange} required/></div>
             </div>
 
             <div className="row">
             <div className="col-25"><label>City:</label></div>
             <div className="col-75"><input type ="text" className = "form-control" name="City" value={this.state.City}
-            onChange={this.handleChange} placeholder = "eg:Vetlapalem "required/></div>
+            onChange={this.handleChange} required/></div>
             </div>
 
             <div className="row">
             <div className="col-25"><label>District:</label></div>
             <div className="col-75"><input type ="text" className = "form-control" name="district" value={this.state.district}
-            onChange={this.handleChange} placeholder = "eg:East Godavari"required/></div>
+            onChange={this.handleChange} required/></div>
             </div>
 
             <div className="row">
             <div className="col-25"><label>State:</label></div>
             <div className="col-75"><input type ="text" className = "form-control" name="state" value={this.state.state}
-            onChange={this.handleChange} placeholder = "eg:A.P. "required/></div>
+            onChange={this.handleChange} required/></div>
             </div>
 
             <div className="row">
             <div className="col-25"><label>Zip-Code:</label></div>
             <div className="col-75"><input type ="Number" className = "form-control" name="zip" value={this.state.zip}
-            onChange={this.handleChange} placeholder = "eg:533103 "required/></div>
+            onChange={this.handleChange} required/></div>
             </div>
 
             <input type="submit" value="Submit" />
