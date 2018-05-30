@@ -128,6 +128,7 @@ class customerForm extends Component {
             <input type="submit" value="Submit" />
           </form>
         </div>
+        <h3>Submitted User Details:</h3>
         <CustomerResults />
       </div>
     );
